@@ -278,7 +278,7 @@ def detect_and_annotate(image_bgr, model, labels):
 if input_blob:
     image = Image.open(input_blob).convert("RGB")
     img_np = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
-    st.image(image, caption="Input image", use_container_width=True)
+    st.image(image, caption="Input image", width='stretch')
 
     cols = st.columns([1, 2])
     with cols[0]:
@@ -296,7 +296,7 @@ if input_blob:
                 st.warning("No faces detected. Try a clearer / closer image.")
             else:
                 # show annotated image
-                st.image(annotated, caption="Annotated", use_container_width=True)
+                st.image(annotated, caption="Annotated", width='stretch')
 
                 # show per-face cards
                 for idx, label, conf, bbox in results:
