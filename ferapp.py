@@ -6,6 +6,22 @@ from pathlib import Path
 from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont
 
+# ---- TEMP: version check (remove after debugging) ----
+import sys
+try:
+    import cv2
+    print("cv2 version:", cv2.__version__)
+except Exception as e:
+    print("cv2 import error:", repr(e))
+try:
+    import tensorflow as tf
+    print("tf version:", tf.__version__)
+except Exception as e:
+    print("tf import error:", repr(e))
+print("python:", sys.version)
+# -----------------------------------------------------
+
+
 # -----------------------
 # PAGE CONFIG
 # -----------------------
