@@ -1,8 +1,8 @@
-streamlit
-tensorflow
-numpy
-opencv-python
-Pillow
-python-dotenv
-pandas
-h5py
+streamlit==1.51.0
+tensorflow==2.20.0
+numpy==1.26.4
+opencv-python-headless==4.11.0.86
+Pillow==10.2.0
+python-dotenv==1.0.1
+pandas==2.2.1
+h5py==3.15.1
