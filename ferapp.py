@@ -6,31 +6,6 @@ from pathlib import Path
 from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont
 
-# ---- TEMP DEBUG (REMOVE AFTER) ----
-import sys, subprocess, importlib
-print("PYTHON:", sys.version)
-try:
-    import pkg_resources
-    pkgs = {p.key: p.version for p in pkg_resources.working_set}
-    print("packages (sample): opencv:", pkgs.get("opencv-python")[:20] if "opencv-python" in pkgs else None,
-          "opencv-headless:", pkgs.get("opencv-python-headless"))
-except Exception as e:
-    print("pkg_resources error:", e)
-
-try:
-    import cv2
-    print("cv2 version:", cv2.__version__, "cv2 file:", getattr(cv2, "__file__", None))
-except Exception as e:
-    print("cv2 import error:", repr(e))
-
-try:
-    import tensorflow as tf
-    print("tf version:", tf.__version__)
-except Exception as e:
-    print("tf import error:", repr(e))
-# -----------------------------------
-
-
 # -----------------------
 # PAGE CONFIG
 # -----------------------
