@@ -1,4 +1,4 @@
-Here is your **updated, cleaned, polished README** with:
+?Here is your **updated, cleaned, polished README** with:
 
 ✔ Your **live Streamlit app link**
 ✔ Your **new dataset link**
@@ -57,6 +57,7 @@ This project uses a **Convolutional Neural Network (CNN)** trained on the **FER2
 ├── ferapp.py                          # Main Streamlit app
 ├── Facial_Emotion_Recognition_using_CNN.ipynb   # Notebook for training/modeling
 ├── emotion_cnn.keras                  # Trained CNN model (saved model format)
+├── class_indices.npy                  # Optional label index file
 ├── models/                            # Optional model folder
 │   └── emotion_cnn.keras
 ├── requirements.txt                   # App dependencies
@@ -201,3 +202,5 @@ If you'd like to improve the interface, optimize the CNN, or contribute new feat
 Thanks for checking out the project — enjoy experimenting with emotion detection! 😄
 
 ```
+
+
