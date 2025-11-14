@@ -1,93 +1,203 @@
-# Facial Emotion Recognition using CNN :
-[![LICENCE.md](https://img.shields.io/github/license/PrudhviGNV/py-automl)](https://github.com/PrudhviGNV/py-automl/blob/master/LICENCE.md)[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/PrudhviGNV)[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/PrudhviGNV/open-source-badges/)
-[![Awesome Badges](https://img.shields.io/badge/badges-awesome-green.svg)](https://github.com/PrudhviGNV/badges)<br>
-This is completely a deep learning project entirely based on neural networks and I think Facial emotion recognition(FER) project is one of the classical projects in deep learning.<br/>
-<br/>We all know facial emotions play a vital role in our day-to-day life. so, we need a system which is capable of recognising our  facial emotions and able to act accordingly.
-<br/>
-<br/> 
-This project is the first step in that system.
-<br/>
-<br/>
-![me emotion](https://user-images.githubusercontent.com/39909903/86574626-f8af6f80-bf2a-11ea-93f2-c58bd08bb871.PNG) --
-![ntr emotion](https://user-images.githubusercontent.com/39909903/86574777-2f858580-bf2b-11ea-8aee-597f89f2b6b9.PNG)
-<br/> <br/>
-Here I trained the convolution neural network with kaggle facial emotion dataset. so that it learns patterns for each facial expression and able to detect facial emotions
-<br/>
-<br/>
+Here is your **updated, cleaned, polished README** with:
 
--------
-### I wrote a medium blog on this project. you can find [here](https://medium.com/@prudhvi.gnv/ultimate-guide-for-facial-emotion-recognition-using-a-cnn-f9239fdc63ad?source=---------2------------------) for quick understanding and insights.
+✔ Your **live Streamlit app link**
+✔ Your **new dataset link**
+✔ Removed license section
+✔ Improved formatting and clarity
 
------
-_Feel free to download, clone , fork the project._  
+You can directly paste this into `README.md`.
 
-## Installation of python libraries:
-  * keras with tensorflow as backend
-  * OpenCV
-  * numpy
-  * pandas
-  * matplotlib
+---
 
+```markdown
+# Facial Emotion Recognition using CNN 🎭
 
-## DataSet:
-In this project I used kaggle dataset i.e  <br/>
-  https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/overview
-  <br/>
-    we can use a kaggle API to access and download that dataset.
+Facial Emotion Recognition (FER) is a deep learning task where a model predicts human emotions based on facial expressions.  
+This project uses a **Convolutional Neural Network (CNN)** trained on the **FER2013** dataset and provides a modern, fully interactive **Streamlit web application**.
 
-## Usage:
-This project is in notebook format. I wrote the program in google colabs.
-<br/><br/>
-**Google colabs** is a cloud based notebook IDE which offers a free GPU and allows us to write python code snippets with ease.
-It is almost similar to jupyter notebook but slight variations.
-Some of the code snippets in the program is specific to google colabs. Dont get confuse.
-<br/>
-<br/>
-In the notebook, I  explain all the concepts, pipeline , terminology , functions which is involved in the program in a clear and concised manner. 
-Even I also mention some of my insights , intuitions and observations in the project.<br/>
-I document almost everything  that is used in the  program.<br/>
-This notebook file is a complete wrapout  of practical exposure, understanding and theory.
-<br/>
-<br/>
+🌐 **Live App:**  
+👉 https://face-er.streamlit.app
 
-  * facial_Emotion_Recognition_using_cnn.ipnb -->  main file
-  * images folder --> consists of images to be tested and also contains screenshots of results of that images.
-  * model.h5 --> saved weights of the model which is trained with 200 epochs
-  * model.json --> saved architecture of the neural network.
-  * haarcascade classifiers --> higly pretrained classifiers to detect faces.
-<br/>
-<br/>
-The following is the results of the images. I also add the number of persons in the image and the relevant emojis to their emotions of the persons to create sense of feel.
-<br/><br/>
+---
 
+## 🔍 What This Project Does
 
+- Detects one or more faces in an image
+- Classifies each detected face into 7 emotions:
 
+  `Angry • Disgust • Fear • Happy • Sad • Surprise • Neutral`
 
+- Draws bounding boxes and overlays:
+  - Emotion labels  
+  - Confidence scores  
+  - Emoji indicators  
+- Offers a smooth **dark-themed Streamlit UI**:
+  - 📷 Capture image from webcam  
+  - 🖼 Upload image  
+  - 🔎 Generate predictions with confidence bars  
+  - 🎨 Beautiful gradient-based UI components
 
-![multistar_emotion](https://user-images.githubusercontent.com/39909903/86573388-33180d00-bf29-11ea-844a-09c8cea77467.PNG)
-![mb_emotion](https://user-images.githubusercontent.com/39909903/86573436-41febf80-bf29-11ea-9f47-76a62f6a6a8e.PNG)
-![khans_emotions](https://user-images.githubusercontent.com/39909903/86573368-2c899580-bf29-11ea-8588-3600004d7b77.PNG)
+---
 
-  <br/>
-  <br/>
-  Thanks, Hope you enjoy the project! :)
-  <br/>
-  <br/>
-  <br/>
-  
+## 🧠 Tech Stack
 
-  ## Contributing:
-  all pull requests are welcome. I felt glad if you give me any suggestions. (^_^)
- [![GitHub issues](https://img.shields.io/github/issues/PrudhviGNV/Facial-emotion-recognition-using-CNN)](https://github.com/PrudhviGNV/Facial-emotion-recognition-using-CNN/issues)
-  <br/>
-  <br/>
-  ## Licence & copyright: 
-  © Prudhvi GNV, _Computer Science<br/>
-  Licensed under the [MIT License](LICENSE)_
-  [![GitHub license](https://img.shields.io/github/license/PrudhviGNV/Facial-emotion-recognition-using-CNN)](https://github.com/PrudhviGNV/Facial-emotion-recognition-using-CNN/blob/master/LICENSE)
-  
-  --------
-## Contact:
-<a href="https://www.linkedin.com/in/prudhvignv"><img src="https://github.com/PrudhviGNV/PrudhviGNV/blob/master/logos/linkedin.png" width="40" /> </a>  <a href="https://github.com/PrudhviGNV"><img src="https://github.com/PrudhviGNV/PrudhviGNV/blob/master/logos/github-logo.png" width="40" /> </a>  <a href="https://www.facebook.com/prudhvi.gnv/"><img src="https://github.com/PrudhviGNV/PrudhviGNV/blob/master/logos/facebook.png" width="40" /> </a>  <a href="mailto:prudhvi.gnv@gmail.com"><img src="https://github.com/PrudhviGNV/PrudhviGNV/blob/master/logos/google-plus.png" width="40" /> </a>  <a
- href="https://www.instagram.com/prudhvi_gnv"><img src="https://github.com/PrudhviGNV/PrudhviGNV/blob/master/logos/instagram.png" width="40" /> </a><a href="https://prudhvignv.github.io"><img src="https://github.com/PrudhviGNV/PrudhviGNV/blob/master/logos/home.png" width="40" /></a>
-  
+- **TensorFlow / Keras** – CNN model  
+- **Streamlit** – Web UI  
+- **OpenCV** – Face detection  
+- **Pillow (PIL)** – Image handling  
+- **NumPy / Pandas** – Preprocessing  
+
+---
+
+## 📦 Repository Structure
+
+```
+
+.
+├── ferapp.py                          # Main Streamlit app
+├── Facial_Emotion_Recognition_using_CNN.ipynb   # Notebook for training/modeling
+├── emotion_cnn.keras                  # Trained CNN model (saved model format)
+├── models/                            # Optional model folder
+│   └── emotion_cnn.keras
+├── requirements.txt                   # App dependencies
+└── README.md
+
+````
+
+The Streamlit app automatically looks for a model in:
+
+1. `emotion_cnn.keras` (root directory), or  
+2. `models/emotion_cnn.keras`, or  
+3. Any `*.keras` file in either of those directories.
+
+---
+
+## 🧪 Dataset
+
+This project uses the **FER2013** dataset available on Kaggle:  
+👉 https://www.kaggle.com/datasets/ashishpatel26/facial-expression-recognitionferchallenge
+
+Dataset includes:
+
+- 48×48 grayscale facial images  
+- 7 emotion classes  
+- Over 35,000 images  
+
+---
+
+## ⚙️ Installation (Local Setup)
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/face_emotion_recogniser-cnn-.git
+cd face_emotion_recogniser-cnn-
+````
+
+### 2️⃣ Create Virtual Environment (Recommended)
+
+```bash
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+(Uses `opencv-python-headless` to avoid `libGL.so.1` errors on servers.)
+
+---
+
+## 🚀 Running the Streamlit App
+
+Place your `emotion_cnn.keras` model in:
+
+* The project root
+  **or**
+* A folder named `models/`
+
+Then run:
+
+```bash
+streamlit run ferapp.py
+```
+
+Open in your browser at:
+
+```
+http://localhost:8501
+```
+
+---
+
+## 🖥 Web App Features
+
+Inside the app, you can:
+
+* **📷 Capture live image** via webcam
+* **🖼 Upload an image file**
+* **🔍 Click “Analyze Emotion”** to:
+
+  * Detect all faces in the image
+  * Predict their emotions using the CNN
+  * Show per-face prediction cards with confidence bars
+  * Display a fully annotated version of the image
+
+The UI uses gradient cards, colorful badges, and modern styling for a clean aesthetic.
+
+---
+
+## 📚 Training (Notebook)
+
+Model training is done in:
+
+```
+Facial_Emotion_Recognition_using_CNN.ipynb
+```
+
+It includes:
+
+* FER2013 preprocessing
+* CNN architecture
+* Callbacks:
+
+  * ModelCheckpoint
+  * ReduceLROnPlateau
+  * EarlyStopping
+* Model export to `.keras` format
+* Visualization & interpretation
+
+You can retrain or modify the model easily.
+
+---
+
+## 🚧 Future Enhancements
+
+* Replace Haarcascade with MTCNN for improved face detection
+* Add live video feed support
+* Multi-model selection (lightweight / advanced CNN)
+* Convert model to TFLite for mobile
+* Add emotion timeline graphs for video
+
+---
+
+## 💬 Support & Contributions
+
+If you'd like to improve the interface, optimize the CNN, or contribute new features:
+
+* Open an **issue**
+* Create a **pull request**
+* Share ideas to enhance UI/UX or accuracy
+
+---
+
+Thanks for checking out the project — enjoy experimenting with emotion detection! 😄
+
+```
